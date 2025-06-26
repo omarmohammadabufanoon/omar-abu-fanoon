@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body {
+    background-color: #f7f7f9;
+    color: #fffffe;
+}
+
+nav {
+    position: fixed;
+    height: 15vh;
+    width: 100%;
+    background-color: #16161a;
+    display: block;
+    align-content: center;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.titelAndLogo {
+    display: flex;
+    gap: 20px;
+    color: #fffffe;
+}
+
+.headerClass {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 80%;
+}
+
+.i {
+    width: 25px;
+    height: 25px;
+}
+
+aside {
+    position: fixed;
+    margin-top: 17vh;
+    display: block;
+    width: 45vh;
+    height: 70vh;
+    margin-left: 75.5%;
+    background-color: #16161a;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    overflow: hidden;
+    color: #fffffe;
+}
+
+.title {
+    height: 10%;
+    display: flex;
+    gap: 12vh;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #fffffe;
+}
+
+.cartContent {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.inCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.05);
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #94a1b2;
+}
+
+.inCart img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.inCart h4, .inCart h6 {
+    font-size: 14px;
+    color: #fffffe;
+    margin: 0;
+}
+
+.inCart button {
+    background-color: #7f5af0;
+    color: #fffffe;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.inCart button:hover {
+    background-color: #2cb67d;
+}
+
+.totalCostCart {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    gap: 50%;
+    color: #fffffe;
+}
+
+.cartButton {
+    width: 80%;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: #7f5af0;
+    color: #fffffe;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.cartButton:hover {
+    background-color: #2cb67d;
+}
+
+.main {
+    display: block;
+    width: 75%;
+    height: 120vh;
+    color: #fffffe;
+}
+
+#searchInput {
+    margin-top: 16vh;
+    width: 96.5%;
+    height: 7.5%;
+    margin-left: 2%;
+    background-color: #010101;
+    color: #fffffe;
+    border: 1px solid #72757e;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ourProductWord {
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #fffffe;
+}
+
+.line {
+    margin-top: 1%;
+    width: 18.5%;
+    height: 5px;
+    background-color: #7f5af0;
+    border: none;
+}
+
+.card {
+    border-radius: 16px;
+    background-color: #010101;
+    width: 250px;
+    height: 370px;
+    margin: 20px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    color: #fffffe;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.namecart {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fffffe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.pricecart {
+    font-size: 16px;
+    color: #2cb67d;
+    font-weight: bold;
+}
+
+.purchaseButton {
+    background-color: #7f5af0;
+    color: #fffffe;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.purchaseButton:hover {
+    background-color: #2cb67d;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 100vh;
+    height: 8.5vh;
+    background-color: #16161a;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #94a1b2;
+}
+
+/* ✅ Media Queries */
+@media (max-width: 768px) {
+    .headerClass {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .titelAndLogo {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    aside {
+        position: static;
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+    }
+
+    #searchInput {
+        width: 90%;
+        height: 40px;
+        margin-left: 5%;
+        margin-top: 18vh;
+    }
+
+    .totalCostCart {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .cartButton {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    aside {
+        width: 90%;
+        margin-left: 5%;
+        position: static;
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+        height: auto;
+    }
+
+    #searchInput {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 18vh;
+    }
+
+    .cartButton {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
